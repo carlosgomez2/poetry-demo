@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-demo"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Gómez <carlosgomez.deb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.114.1"
+uvicorn = "^0.30.6"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
