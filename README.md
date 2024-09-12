@@ -30,3 +30,19 @@ To run server
 poetry run uvicorn poetry_demo.main:app --port 8080 --reload
 ```
 
+To run scripts
+
+- format with autopep8 aggresive and recursive
+```sh
+poetry run format
+```
+
+- lint and format aggresive
+```sh
+poetry run lint
+```
+
+- run tests with pytest and get code coverage
+```sh
+poetry run test
+```
